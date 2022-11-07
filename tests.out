@@ -1,0 +1,142 @@
+#Simon Gelber
+#Output of test suite
+
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py students.txt
+> S: HAVIR
+Student: HAVIR, BOBBIE, 2, 108 | Teacher: HAMER, GAVIN
+> S: GELBER
+> Student: HAVIR
+Student: HAVIR, BOBBIE, 2, 108 | Teacher: HAMER, GAVIN
+> Student: GELBER
+> Q
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py students.txt
+> Quit
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py students.txt
+> S: HAVIR B
+Student: HAVIR, BOBBIE | Bus Route: 0
+> S: GELBER B
+> Student: HAVIR Bus
+Student: HAVIR, BOBBIE | Bus Route: 0
+> Student: GELBER Bus
+> T: HAMER
+Student: LIBRANDI, TODD | Teacher: HAMER, GAVIN
+Student: HAVIR, BOBBIE | Teacher: HAMER, GAVIN
+Student: SARAO, DIEDRA | Teacher: HAMER, GAVIN
+Student: VANCOTT, MIKE | Teacher: HAMER, GAVIN
+Student: WICINSKY, TERESE | Teacher: HAMER, GAVIN
+Student: KOZOLA, BUSTER | Teacher: HAMER, GAVIN
+Student: MULLINGS, LEIGHANN | Teacher: HAMER, GAVIN
+Student: BUSSMANN, BILLY | Teacher: HAMER, GAVIN
+Student: BERBES, DICK | Teacher: HAMER, GAVIN
+Student: MULGREW, RANDELL | Teacher: HAMER, GAVIN
+Student: TOWLEY, LANE | Teacher: HAMER, GAVIN
+> T: GELBER
+> Teacher: HAMER
+Student: LIBRANDI, TODD | Teacher: HAMER, GAVIN
+Student: HAVIR, BOBBIE | Teacher: HAMER, GAVIN
+Student: SARAO, DIEDRA | Teacher: HAMER, GAVIN
+Student: VANCOTT, MIKE | Teacher: HAMER, GAVIN
+Student: WICINSKY, TERESE | Teacher: HAMER, GAVIN
+Student: KOZOLA, BUSTER | Teacher: HAMER, GAVIN
+Student: MULLINGS, LEIGHANN | Teacher: HAMER, GAVIN
+Student: BUSSMANN, BILLY | Teacher: HAMER, GAVIN
+Student: BERBES, DICK | Teacher: HAMER, GAVIN
+Student: MULGREW, RANDELL | Teacher: HAMER, GAVIN
+Student: TOWLEY, LANE | Teacher: HAMER, GAVIN
+> Teacher: GELBER
+> G: 1
+Student: SAELEE, DANILO
+Student: GARTH, JOHN
+> G: 0
+There are Zero students in grade 0
+> G: 1 H
+Student with Highest GPA: GARTH, JOHN, 3.14, FALKER, ADOLPH, 0
+> G: 1 L
+Student with Lowest GPA: SAELEE, DANILO, 2.85, FALKER, ADOLPH, 54
+> G: 0 H
+There are Zero students in grade 0
+> G: 0 L
+There are Zero students in grade 0
+> Grade: 1
+Student: SAELEE, DANILO
+Student: GARTH, JOHN
+> Grade: 0
+There are Zero students in grade 0
+> Grade: 1 High
+Student with Highest GPA: GARTH, JOHN, 3.14, FALKER, ADOLPH, 0
+> Grade: 1 Low
+Student with Lowest GPA: SAELEE, DANILO, 2.85, FALKER, ADOLPH, 54
+> Grade: 0 High
+There are Zero students in grade 0
+> Grade: 0 Low
+There are Zero students in grade 0
+> B: 0
+Student: SCHOENECKER, PHUONG, 6, 109
+Student: FINCHMAN, MATHILDA, 6, 111
+Student: BRODERSEN, HYE, 3, 110
+Student: HAVIR, BOBBIE, 2, 108
+Student: MASSART, ELDON, 4, 105
+Student: GARTH, JOHN, 1, 103
+Student: CREMEANS, RANDOLPH, 6, 109
+Student: KREESE, CARRIE, 6, 109
+> B: 1
+> Bus: 0
+Student: SCHOENECKER, PHUONG, 6, 109
+Student: FINCHMAN, MATHILDA, 6, 111
+Student: BRODERSEN, HYE, 3, 110
+Student: HAVIR, BOBBIE, 2, 108
+Student: MASSART, ELDON, 4, 105
+Student: GARTH, JOHN, 1, 103
+Student: CREMEANS, RANDOLPH, 6, 109
+Student: KREESE, CARRIE, 6, 109
+> Bus: 1
+> A: 1
+Grade: 1 Average GPA: 3.00
+> A: 0
+There are zero students in grade 0
+> A: 10
+There are zero students in grade 10
+> Average: 1
+Grade: 1 Average GPA: 3.00
+> Average: 0
+There are zero students in grade 0
+> Average: 10
+There are zero students in grade 10
+> I
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+> Info
+0: 0
+1: 2
+2: 13
+3: 9
+4: 15
+5: 0
+6: 21
+> Quit
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py student.txt
+Could not open file:  student.txt
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py invalidformat.txt
+File format invalid...Incorrect number of columns. Exiting.
+
+Simon Gelber@LAPTOP-K5CCPOHF MINGW64 /c/Users/galac/PycharmProjects/csc365lab1/CSC_365_Lab_1 (main)
+$ python3 schoolsearch.py students.txt
+> D: 1
+Invalid Command.
+> Q
+
